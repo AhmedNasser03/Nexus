@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="../style/cart.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+
+      <div class="logo">
+        <a href="../index.html">
+          <i class="fa-brands fa-codepen fa-lg logo-image" style="color:#4C75AF;"></i>
+        </a>
+        <span class="logo-text">Nexus</span>
+      </div>
+
+      <nav class="nav-links">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="../html/products.html">Products</a></li>
+          <li><a href="../html/plans.html">Plans</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="cart-page container">
+
+    <h1 class="page-title">Shopping Cart</h1>
+
+    <section class="cart-layout">
+
+      <section class="cart-items">
+
+        <article class="cart-item">
+          <img src="../images/download.jpg" alt="">
+          <div class="item-info">
+            <h3>iPhone 17 Pro Max</h3>
+            <p>256GB · Cosmic Orange</p>
+            <span class="price">EGP 84,000</span>
+          </div>
+
+          <div class="item-actions">
+            <div class="quantity">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="remove"><i class="fa-solid fa-trash"></i></button>
+          </div>
+        </article>
+
+        <article class="cart-item">
+          <img src="../images/download (2).jpg" alt="">
+          <div class="item-info">
+            <h3>Galaxy S25 Ultra</h3>
+            <p>12GB RAM · Titanium Black</p>
+            <span class="price">EGP 60,000</span>
+          </div>
+
+          <div class="item-actions">
+            <div class="quantity">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="remove"><i class="fa-solid fa-trash"></i></button>
+          </div>
+        </article>
+
+      </section>
+
+      <aside class="cart-summary">
+        <h2>Order Summary</h2>
+
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <strong>EGP 144,000</strong>
+        </div>
+
+        <div class="summary-row">
+          <span>Shipping</span>
+          <strong>Free</strong>
+        </div>
+
+        <div class="summary-row total">
+          <span>Total</span>
+          <strong>EGP 144,000</strong>
+        </div>
+
+        <button class="checkout-btn">
+          Proceed to Checkout
+        </button>
+      </aside>
+
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col footer-branding">
+        <div class="logo footer-logo">
+          <i class="fa-brands fa-codepen fa-lg logo-image" style="color: #4C75AF;"></i>
+          <div class="logo-text">Nexus</div>
+        </div>
+        <p class="copyright-text">Copyright © 2025 Landify UI Kit. All rights reserved</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Testimonials</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-links">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help center</a></li>
+          <li><a href="#">Terms of service</a></li>
+          <li><a href="#">Legal</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Status</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-subscribe">
+        <h4>Stay up to date</h4>
+        <div class="subscribe-input">
+          <input type="email" placeholder="Your email address">
+          <button type="submit" aria-label="Subscribe">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
